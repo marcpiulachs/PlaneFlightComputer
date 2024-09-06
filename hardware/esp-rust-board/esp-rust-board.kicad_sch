@@ -11363,7 +11363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IC_ICM-42670-P"
+		(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
 			(at 58.42 194.31 0)
 			(effects
 				(font
