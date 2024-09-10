@@ -1,3 +1,6 @@
 (sym_lib_table
+  (version 7)
   (lib (name "Rust_Board")(type "KiCad")(uri "${KIPRJMOD}/../../kicad_libs/Rust_Board.kicad_sym")(options "")(descr ""))
+  (lib (name "DF37C-30DP-0.4V_51_")(type "KiCad")(uri "C:/Source/PlaneFlightComputer/kicad_libs/DF37C-30DP-0.4V_51_.kicad_sym")(options "")(descr ""))
+  (lib (name "DF37NC-30DS-0.4V_51_")(type "KiCad")(uri "C:/Source/PlaneFlightComputer/kicad_libs/DF37NC-30DS-0.4V_51_.kicad_sym")(options "")(descr ""))
 )
