@@ -11773,7 +11773,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061b87401")
 		(property "Reference" "U4"
 			(at 215.9 115.189 0)
@@ -18735,7 +18735,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "09dd4921-2f26-4d55-a22e-fb4b5557f3a6")
 		(property "Reference" "J2"
@@ -19120,7 +19120,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "11a86223-b934-4253-bfe5-ec3c79dec312")
 		(property "Reference" "J3"
@@ -21554,6 +21554,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C146287"
+			(at 45.72 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1dbc48d9-c4af-4e7e-8807-ab5adf08ba61")
 		)
@@ -21579,7 +21588,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ad1cf311-c1d3-45a3-8d77-4bd506926720")
 		(property "Reference" "TP1"
@@ -22034,7 +22043,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bc06dcbb-0d25-4f90-8091-c4c35a836f9c")
 		(property "Reference" "TP3"
@@ -22165,7 +22174,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c0a51a56-a091-4cda-ae17-6adae2d61569")
 		(property "Reference" "H2"
@@ -22278,6 +22287,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3008585"
+			(at 283.21 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "70eb178e-ece4-4319-a7c9-67980eec3781")
 		)
@@ -22355,6 +22373,15 @@
 			)
 		)
 		(property "Description" "-4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23"
+			(at 96.52 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146287"
 			(at 96.52 -29.21 0)
 			(effects
 				(font
@@ -22884,7 +22911,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d7517261-d8de-481f-99f0-dd05dd1aca5a")
 		(property "Reference" "H1"
@@ -23159,7 +23186,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "eaa3dd2c-67ac-411b-8fdd-d29a4ddafb81")
 		(property "Reference" "J8"
@@ -23310,7 +23337,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ee2c1833-2608-405b-b4fe-3561c904b549")
 		(property "Reference" "J7"
