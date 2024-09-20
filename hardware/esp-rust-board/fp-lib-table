@@ -1,6 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Rust_Board")(type "KiCad")(uri "${KIPRJMOD}/../../kicad_libs/Rust_Board.pretty")(options "")(descr ""))
-  (lib (name "DF37NC-30DS-0.4V_53_")(type "KiCad")(uri "C:/Users/Marc/Downloads/DF37NC-30DS-0.4V_53_")(options "")(descr ""))
-  (lib (name "DF37C_30DP_0_4V_51_")(type "KiCad")(uri "C:/Users/Marc/Downloads/DF37C_30DP_0_4V_51_")(options "")(descr ""))
-)
