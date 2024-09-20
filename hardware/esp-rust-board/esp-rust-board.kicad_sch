@@ -5330,6 +5330,196 @@
 				)
 			)
 		)
+		(symbol "Transistor_BJT:MMBT3904"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT3904"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT3904_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBT3904_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_FET:DMG2301L"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -6786,6 +6976,12 @@
 		(uuid "7abf7945-306a-4e5e-8ded-9d0d567fb254")
 	)
 	(junction
+		(at 139.7 -29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80b25f2c-1f8f-494c-a6f4-5aaf1471bdcf")
+	)
+	(junction
 		(at 109.22 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6930,6 +7126,12 @@
 		(uuid "dc61395c-01c7-4ae1-ad41-374e1cc54d18")
 	)
 	(junction
+		(at 148.59 -21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dea8be93-14f8-41e9-b9df-5772002efb27")
+	)
+	(junction
 		(at 208.28 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6970,10 +7172,6 @@
 	(no_connect
 		(at 194.31 149.86)
 		(uuid "1accd470-3348-45ac-8de5-61b058001818")
-	)
-	(no_connect
-		(at 50.8 48.26)
-		(uuid "266aa9e0-05a4-4775-9b1e-4289df114681")
 	)
 	(no_connect
 		(at 194.31 152.4)
@@ -7100,6 +7298,16 @@
 			(type default)
 		)
 		(uuid "015f5586-ba76-4a98-9114-f5cd2c67134d")
+	)
+	(wire
+		(pts
+			(xy 148.59 -40.64) (xy 148.59 -39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01be9d79-057b-47f6-bda2-2ce4ab582ad9")
 	)
 	(wire
 		(pts
@@ -7603,6 +7811,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 -36.83) (xy 148.59 -34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d3c2c8-bc9d-40f5-a38e-30de85fce5b7")
+	)
+	(wire
+		(pts
 			(xy 99.06 -45.72) (xy 99.06 -41.91)
 		)
 		(stroke
@@ -7643,6 +7861,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 -29.21) (xy 140.97 -29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275b47ff-38bd-4f6a-ac0c-c716acf3097f")
+	)
+	(wire
+		(pts
 			(xy 218.44 100.33) (xy 218.44 101.6)
 		)
 		(stroke
@@ -7680,6 +7908,16 @@
 			(type default)
 		)
 		(uuid "2bd1bab6-19fa-4307-aa19-a42b9910a81c")
+	)
+	(wire
+		(pts
+			(xy 137.16 -29.21) (xy 139.7 -29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1f725c-8c68-47fb-b8ac-3923ec31b9e5")
 	)
 	(wire
 		(pts
@@ -8013,6 +8251,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 -22.86) (xy 139.7 -21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42be097b-2120-4390-a4ba-66fdb2cce8a6")
+	)
+	(wire
+		(pts
 			(xy 236.22 78.74) (xy 236.22 76.2)
 		)
 		(stroke
@@ -8253,6 +8501,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 -27.94) (xy 139.7 -29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550808bf-4c13-4028-93f4-6f7d304968a5")
+	)
+	(wire
+		(pts
 			(xy -36.83 44.45) (xy -36.83 43.18)
 		)
 		(stroke
@@ -8393,6 +8651,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 -21.59) (xy 148.59 -21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d7014c-0437-4eb6-bc7a-1d4879500468")
+	)
+	(wire
+		(pts
 			(xy 193.04 160.02) (xy 194.31 160.02)
 		)
 		(stroke
@@ -8490,6 +8758,16 @@
 			(type default)
 		)
 		(uuid "6b00a426-8f57-45f1-988f-1faf3fe16257")
+	)
+	(wire
+		(pts
+			(xy 148.59 -24.13) (xy 148.59 -21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e594140-71b3-4cb6-b170-298a4bd44baf")
 	)
 	(wire
 		(pts
@@ -8780,6 +9058,16 @@
 			(type default)
 		)
 		(uuid "83095255-b166-4c23-a7ba-c5f728c58279")
+	)
+	(wire
+		(pts
+			(xy 148.59 -21.59) (xy 148.59 -20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830e9aef-40fc-4dd5-9e0e-e19e1ebf0065")
 	)
 	(polyline
 		(pts
@@ -11284,6 +11572,28 @@
 			)
 		)
 	)
+	(global_label "IO0"
+		(shape bidirectional)
+		(at 132.08 -29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "494716ef-a9f2-4ab4-a48d-57844c9d93c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.6517 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO7"
 		(shape bidirectional)
 		(at 50.8 60.96 180)
@@ -11384,6 +11694,50 @@
 		(uuid "799e761c-1426-40e9-a069-1f4cb353bfaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.3717 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO1"
+		(shape bidirectional)
+		(at 236.22 -44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a81f748-18c1-4d73-94d0-82b0163a68fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.7917 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO1"
+		(shape bidirectional)
+		(at 50.8 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f1b2cca-78a3-4539-b9ec-8bb10832c837")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.3717 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11626,28 +11980,6 @@
 		(uuid "b794d099-f823-4d35-9755-ca1c45247ee9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 38.6265 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO0"
-		(shape bidirectional)
-		(at 236.22 -44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c149a41c-3e52-43de-a5d1-e67dd824f39f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.7917 -44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15865,7 +16197,7 @@
 		(at 146.05 187.96 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000621a35d9")
@@ -19184,6 +19516,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 146.05 -29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "139912aa-c894-494f-b58f-d6fbcf64af7e")
+		(property "Reference" "Q4"
+			(at 151.13 -27.94 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 151.13 -25.4 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 146.05 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(at 146.05 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20526"
+			(at 146.05 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ac28219-ec6b-4d62-85e7-e49a75d4823b")
+		)
+		(pin "2"
+			(uuid "14397cc4-8d04-4f11-b52b-939e251b91db")
+		)
+		(pin "3"
+			(uuid "53a23a5b-5783-4cff-8811-ba45d66c2d46")
+		)
+		(instances
+			(project "esp-rust-board"
+				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 40.64 -40.64 180)
 		(unit 1)
@@ -19201,7 +19614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF 16V"
 			(at 47.244 -38.862 0)
 			(effects
 				(font
@@ -19801,6 +20214,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 148.59 -20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41f74ef0-3d18-4935-9191-4636cd658835")
+		(property "Reference" "#GND01"
+			(at 148.59 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 -15.24 0)
+			(effects
+				(font
+					(size 1.0668 1.0668)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79f4e8c2-5a54-45a6-a871-4e73a729df62")
+		)
+		(instances
+			(project "esp-rust-board"
+				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 209.55 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19859,6 +20338,84 @@
 			(project ""
 				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 139.7 -25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "472f2e0a-4903-4aea-bc44-31345a4e1912")
+		(property "Reference" "R23"
+			(at 133.604 -26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR 1%"
+			(at 134.874 -16.256 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 139.7 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 139.7 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "219d3bc7-e38c-492e-855a-8085fac29dc4")
+		)
+		(pin "2"
+			(uuid "7f222293-4e16-4ade-be77-df9783f15c9a")
+		)
+		(instances
+			(project "esp-rust-board"
+				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -19924,6 +20481,84 @@
 			(project "esp-rust-board"
 				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 134.62 -29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51100592-bfbd-41e4-ad82-6a5db095ce8c")
+		(property "Reference" "R22"
+			(at 133.35 -31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470R 1%"
+			(at 142.494 -31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 134.62 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 134.62 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d39b6140-90bd-48e5-bf28-1329d659ca35")
+		)
+		(pin "2"
+			(uuid "a5b798b1-a534-4619-b713-c68bbd3f9219")
+		)
+		(instances
+			(project "esp-rust-board"
+				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -20692,6 +21327,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 148.59 -40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b12401d-540c-426e-92e7-4fbea135fbbf")
+		(property "Reference" "#PWR030"
+			(at 148.59 -36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 148.59 -45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 -40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 -40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 148.59 -40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fe2453d-38f6-40ab-b47e-63bfc9496eaa")
+		)
+		(instances
+			(project "esp-rust-board"
+				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SS24")
 		(at 35.56 -40.64 270)
 		(unit 1)
@@ -20745,7 +21445,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5380708"
+		(property "LCSC" "C5380709"
 			(at 35.56 -40.64 90)
 			(effects
 				(font
@@ -20764,6 +21464,76 @@
 			(project "esp-rust-board"
 				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 153.67 -39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "76de7c52-658d-4e21-9f1c-63d55c1c4b36")
+		(property "Reference" "J4"
+			(at 156.21 -39.3701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED L"
+			(at 156.21 -36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
+			(at 153.67 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 153.67 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5392053b-e9d5-47d3-b837-57ba718dbe51")
+		)
+		(pin "1"
+			(uuid "acc5d5d4-0bc3-46d4-831a-449e95c16588")
+		)
+		(instances
+			(project "esp-rust-board"
+				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -22426,7 +23196,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF 16V"
 			(at 98.044 -38.862 0)
 			(effects
 				(font
@@ -23408,7 +24178,7 @@
 		(at -48.26 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f0e10a56-4a46-4e79-9fd1-4c1fbec6697f")
@@ -23795,7 +24565,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5380708"
+		(property "LCSC" "C5380709"
 			(at 86.36 -40.64 90)
 			(effects
 				(font
