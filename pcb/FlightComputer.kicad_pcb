@@ -180,7 +180,7 @@
 	(net 58 "unconnected-(U9-NC-Pad3)")
 	(net 59 "unconnected-(U9-NC-Pad6)")
 	(net 60 "unconnected-(U9-NC-Pad14)")
-	(net 61 "unconnected-(SW3A-C-Pad3)")
+	(net 61 "unconnected-(SW3-C-Pad3)")
 	(net 62 "/POWER")
 	(net 63 "Net-(Q2-G)")
 	(net 64 "Net-(Q3-G)")
@@ -11989,7 +11989,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
+		(property "Description" "Switch, single pole double throw"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12015,7 +12015,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SW*DPDT*")
 		(path "/c0feb618-4245-4fe7-8b07-e13646091ab1")
 		(sheetname "Root")
 		(sheetfile "FlightComputer.kicad_sch")
@@ -12262,7 +12261,7 @@
 			(at 2.25 -1.43 270)
 			(size 0.7 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 61 "unconnected-(SW3A-C-Pad3)")
+			(net 61 "unconnected-(SW3-C-Pad3)")
 			(pinfunction "C")
 			(pintype "passive+no_connect")
 			(uuid "7a941c77-6d96-4234-828c-76b619ac6bfd")
@@ -20552,7 +20551,7 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pinfunction "SDO")
-			(pintype "bidirectional")
+			(pintype "input")
 			(uuid "74b39fee-54c7-4ff5-a2f2-8249570a60de")
 		)
 		(pad "6" smd roundrect
