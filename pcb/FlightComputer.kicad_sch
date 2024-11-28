@@ -1727,363 +1727,6 @@
 				)
 			)
 		)
-		(symbol "Rust_Board:BMP388"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U1"
-				(at 0 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BMP388"
-				(at 0 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "BMP388:PQFN50P200X200X80-10N"
-				(at -2.54 34.544 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Bosch Sensortec"
-				(at 0 47.244 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nPressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute - - 10-WFLGA\n"
-				(at 0 29.718 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "WFLGA-10 Bosch Tools"
-				(at 37.592 35.306 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at -27.432 39.37 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/BMP388/Bosch+Sensortec/view-part/?ref=eda"
-				(at -0.508 22.606 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
-				(at -2.794 39.624 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "1.1"
-				(at -34.798 37.592 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMP388/Bosch+Sensortec/view-part/?ref=snap"
-				(at 0 18.542 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "BMP388"
-				(at 20.574 41.402 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 9.398 39.624 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "BOSCH"
-				(at -13.97 42.672 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "BMP388_0_0"
-				(rectangle
-					(start -7.62 15.24)
-					(end 7.62 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "BMP388_1_0"
-				(pin power_in line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 12.7 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -1.27 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "SDI"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 12.7 0)
-					(length 2.54)
-					(name "CSB"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "INT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -1.27 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -1.27 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Rust_Board:ESP32-C3-MINI-1"
 			(pin_names
 				(offset 1.016)
@@ -6262,12 +5905,6 @@
 		(uuid "10b20c6b-8045-46d1-a965-0d7dd9a1b5fa")
 	)
 	(junction
-		(at 54.61 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15a01212-8885-43e7-aa31-10f33f402ce1")
-	)
-	(junction
 		(at 170.18 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6472,12 +6109,6 @@
 		(uuid "b1ba0bdd-184e-4349-87a1-59fb721a8e88")
 	)
 	(junction
-		(at 66.04 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b456c9a5-1dc8-42ab-afe3-04895e9311f9")
-	)
-	(junction
 		(at 54.61 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6602,10 +6233,6 @@
 		(uuid "47f1b4e7-8777-400a-9432-ce58e67d92b2")
 	)
 	(no_connect
-		(at 64.77 219.71)
-		(uuid "795b1b96-0c4d-489c-8bf1-d5d9d05d7f0d")
-	)
-	(no_connect
 		(at 50.8 40.64)
 		(uuid "81da5e77-3fef-492b-a48c-d4fb4d24c527")
 	)
@@ -6724,16 +6351,6 @@
 			(type default)
 		)
 		(uuid "0938c137-668b-4d2f-b92b-cadb1df72bdb")
-	)
-	(wire
-		(pts
-			(xy 66.04 212.09) (xy 64.77 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09e33b62-18eb-4d2b-af4b-2059a4db6610")
 	)
 	(wire
 		(pts
@@ -7257,16 +6874,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 208.28) (xy 43.18 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34614873-9dcd-488f-83f3-9684d2b1f0bb")
-	)
-	(wire
-		(pts
 			(xy 231.14 252.73) (xy 231.14 256.54)
 		)
 		(stroke
@@ -7707,16 +7314,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 219.71) (xy 41.91 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5495dd34-601d-4164-86b5-6e6eb690592d")
-	)
-	(wire
-		(pts
 			(xy 349.25 227.33) (xy 349.25 226.06)
 		)
 		(stroke
@@ -7724,16 +7321,6 @@
 			(type default)
 		)
 		(uuid "550808bf-4c13-4028-93f4-6f7d304968a5")
-	)
-	(wire
-		(pts
-			(xy 54.61 228.6) (xy 54.61 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b6fd93-7281-458b-9ca3-172f51094cbb")
 	)
 	(wire
 		(pts
@@ -7854,16 +7441,6 @@
 			(type default)
 		)
 		(uuid "63286bbb-78a3-4368-a50a-f6bf5f1653b0")
-	)
-	(wire
-		(pts
-			(xy 43.18 214.63) (xy 44.45 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a81876-11e4-4038-8b32-fa1b96461c6b")
 	)
 	(wire
 		(pts
@@ -8297,16 +7874,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 212.09) (xy 66.04 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87eec956-da9d-4557-8c07-502489ee3fe8")
-	)
-	(wire
-		(pts
 			(xy 36.83 35.56) (xy 52.07 35.56)
 		)
 		(stroke
@@ -8565,16 +8132,6 @@
 		)
 		(uuid "9aaeec6e-84fe-4644-b0bc-5de24626ff48")
 	)
-	(wire
-		(pts
-			(xy 66.04 208.28) (xy 66.04 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ad4c770-85c9-4e57-80c6-b724f916b8df")
-	)
 	(polyline
 		(pts
 			(xy 12.7 287.02) (xy 113.03 287.02)
@@ -8644,16 +8201,6 @@
 			(type default)
 		)
 		(uuid "a150f0c9-1a23-4200-b489-18791f6d5ce5")
-	)
-	(wire
-		(pts
-			(xy 52.07 228.6) (xy 54.61 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a177b1d3-9e4b-4264-acf9-cd1dd0afdb72")
 	)
 	(wire
 		(pts
@@ -8734,16 +8281,6 @@
 			(type default)
 		)
 		(uuid "a90361cd-254c-4d27-ae1f-9a6c85bafe28")
-	)
-	(wire
-		(pts
-			(xy 41.91 219.71) (xy 41.91 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a992996a-c836-42b7-9e61-ba1e2968ac23")
 	)
 	(polyline
 		(pts
@@ -8904,16 +8441,6 @@
 			(type default)
 		)
 		(uuid "b9e294b5-3cb1-4626-8cd6-59ae75b0337e")
-	)
-	(wire
-		(pts
-			(xy 57.15 226.06) (xy 57.15 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba4e8ada-96e8-40d0-a8cb-cc30331b9231")
 	)
 	(wire
 		(pts
@@ -9247,16 +8774,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 212.09) (xy 44.45 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5957f0c-7bbf-48bb-8698-02f9f1aa26b0")
-	)
-	(wire
-		(pts
 			(xy 137.16 187.96) (xy 137.16 181.61)
 		)
 		(stroke
@@ -9294,16 +8811,6 @@
 			(type default)
 		)
 		(uuid "d8220083-ee61-4d65-8bc0-c840b6a7ae28")
-	)
-	(wire
-		(pts
-			(xy 43.18 217.17) (xy 44.45 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8972263-d2e1-41f4-a7ae-51255af3d07c")
 	)
 	(wire
 		(pts
@@ -9527,16 +9034,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 226.06) (xy 54.61 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4acb538-4057-4924-b5f9-9e71510ec88d")
-	)
-	(wire
-		(pts
 			(xy 172.72 241.3) (xy 172.72 238.76)
 		)
 		(stroke
@@ -9594,16 +9091,6 @@
 			(type default)
 		)
 		(uuid "e940653c-6b75-4ad3-842d-826b6430921a")
-	)
-	(wire
-		(pts
-			(xy 57.15 228.6) (xy 54.61 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e962a2f4-8f3b-4117-aa28-3ba9b1d615a9")
 	)
 	(wire
 		(pts
@@ -9694,16 +9181,6 @@
 			(type default)
 		)
 		(uuid "ec47520b-25d7-4c74-87ac-eb9e34e7c020")
-	)
-	(wire
-		(pts
-			(xy 52.07 226.06) (xy 52.07 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecdcb5f3-1bdf-4a4c-9b57-324d440405c9")
 	)
 	(wire
 		(pts
@@ -9874,16 +9351,6 @@
 			(type default)
 		)
 		(uuid "f67bbef3-6f59-49ba-8890-d1f9dc9f9ad6")
-	)
-	(wire
-		(pts
-			(xy 66.04 214.63) (xy 64.77 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f69ee857-decd-4ac0-a849-c7499a201b93")
 	)
 	(wire
 		(pts
@@ -10212,18 +9679,6 @@
 		)
 		(uuid "477edc29-8274-455e-a223-d081fbe720f3")
 	)
-	(text "Address: 0x76 (1001100b)"
-		(exclude_from_sim no)
-		(at 22.098 232.156 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5949f822-2785-4f98-8d73-d5afa81f47f0")
-	)
 	(text "I2c Pull-up"
 		(exclude_from_sim no)
 		(at 115.57 64.008 0)
@@ -10502,28 +9957,6 @@
 		(uuid "18f1018d-5857-4c32-a072-f3de80352f74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 39.8965 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO8_SCL"
-		(shape bidirectional)
-		(at 43.18 214.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f952d5e-670d-478f-b176-d29ed776b046")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.2765 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11180,28 +10613,6 @@
 		(uuid "e469d26e-8de4-46c8-8310-b9e1be0aac87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 206.9317 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO10_SDA"
-		(shape bidirectional)
-		(at 43.18 217.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e83a2794-f960-405e-8320-5b37527a6b4a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.0065 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17544,71 +16955,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 87.63 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02bd0439-789b-4131-babf-7bbfeeb4a18c")
-		(property "Reference" "#PWR038"
-			(at 87.63 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 88.011 210.2358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 87.63 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94af5d35-852a-444d-95c1-f181f2c37aa3")
-		)
-		(instances
-			(project "FlightComputer"
-				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 142.24 118.11 180)
 		(unit 1)
@@ -18294,218 +17640,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Rust_Board:BMP388")
-		(at 54.61 224.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24886f89-291b-46ed-b8fd-3fac43450632")
-		(property "Reference" "U1"
-			(at 54.61 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BMP388"
-			(at 54.61 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_LGA:Rohm_MLGA010V020A_LGA-10_2x2mm_P0.45mm_LayoutBorder2x3y"
-			(at 52.07 190.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Bosch Sensortec"
-			(at 54.61 177.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nPressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute - - 10-WFLGA\n"
-			(at 54.61 195.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "WFLGA-10 Bosch Tools"
-			(at 92.202 189.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 27.178 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BMP388/Bosch+Sensortec/view-part/?ref=eda"
-			(at 54.102 202.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 51.816 185.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.1"
-			(at 19.812 187.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMP388/Bosch+Sensortec/view-part/?ref=snap"
-			(at 54.61 206.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BMP388"
-			(at 75.184 183.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 64.008 185.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "BOSCH"
-			(at 40.64 182.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C779278"
-			(at 54.61 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "34e88d45-5895-4f35-b1c8-309b51ba713f")
-		)
-		(pin "8"
-			(uuid "e55b6825-d2cc-4a6e-97af-98e7d7085df6")
-		)
-		(pin "1"
-			(uuid "1ee2c82f-8d63-4fa5-a276-4f52484b2863")
-		)
-		(pin "10"
-			(uuid "7fd94a1d-7407-4ab0-99a1-e7c0efa70200")
-		)
-		(pin "7"
-			(uuid "e53d9d8c-a470-46b4-ae73-c76e829d9890")
-		)
-		(pin "5"
-			(uuid "c5c69c60-7d26-48ef-ac79-8ffeaf162566")
-		)
-		(pin "2"
-			(uuid "538647a0-3dad-42d5-adde-54cc91cac4c9")
-		)
-		(pin "3"
-			(uuid "f3531a85-6dd4-4bd4-a7ca-b8579ac00fae")
-		)
-		(pin "4"
-			(uuid "1296c751-394c-49e8-b6f9-57d26e146be9")
-		)
-		(pin "6"
-			(uuid "c2e8e6e3-145d-4e4e-9830-c5200ffb7685")
-		)
-		(instances
-			(project ""
-				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 345.44 147.32 0)
 		(unit 1)
@@ -18828,71 +17962,6 @@
 			(project "esp-rust-board"
 				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 43.18 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3011d2bc-c8cf-4044-ab44-8f704dd278d8")
-		(property "Reference" "#PWR035"
-			(at 43.18 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 43.561 203.8858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 43.18 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "664ab403-f335-4afd-b796-e5af206abb78")
-		)
-		(instances
-			(project "FlightComputer"
-				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -19729,71 +18798,6 @@
 			(project "esp-rust-board"
 				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 66.04 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "679cfd7c-9088-42ed-ae36-55e57ffe3530")
-		(property "Reference" "#PWR036"
-			(at 66.04 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 66.421 203.8858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 66.04 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "239b96f7-f896-4e6f-8a5a-c72f9fec77b5")
-		)
-		(instances
-			(project "FlightComputer"
-				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -20684,71 +19688,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 82.55 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c5f0f5f-d270-4720-82ec-706e3a13e4ca")
-		(property "Reference" "#PWR037"
-			(at 82.55 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 82.931 210.2358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 82.55 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "656438d2-7633-4f13-8e4c-bb50d2b2f421")
-		)
-		(instances
-			(project "FlightComputer"
-				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 90.17 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20807,71 +19746,6 @@
 			(project "esp-rust-board"
 				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ffcc108-4e4f-4b60-9457-fa5e6a3c9016")
-		(property "Reference" "#PWR040"
-			(at 87.63 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.757 224.1042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "837af698-d959-4fb9-bb67-223d59032ea7")
-		)
-		(instances
-			(project "FlightComputer"
-				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -20948,84 +19822,6 @@
 			(project "esp-rust-board"
 				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 87.63 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5ea6272-5e00-4cc8-8a0b-14a4cc0f4b55")
-		(property "Reference" "C23"
-			(at 89.9668 216.0016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF 10V"
-			(at 88.9 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 87.63 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 87.63 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcd1edb9-df00-43b4-8306-6d42ccb1213f")
-		)
-		(pin "2"
-			(uuid "03880f7f-1551-4862-98c9-f901d25c37e4")
-		)
-		(instances
-			(project "FlightComputer"
-				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -21626,71 +20422,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc8b2669-b92c-4167-8ec1-991ea249af67")
-		(property "Reference" "#PWR039"
-			(at 82.55 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.677 224.1042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38880324-6f32-4494-a9d9-65a1b78faf8e")
-		)
-		(instances
-			(project "FlightComputer"
-				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 345.44 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21823,84 +20554,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 82.55 217.17 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0e76f86-a200-4cef-be35-66f15eec93b1")
-		(property "Reference" "C22"
-			(at 79.756 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF 10V"
-			(at 80.518 219.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 82.55 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 82.55 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c74f917-591f-426a-96c5-52ec2d3c01cc")
-		)
-		(pin "2"
-			(uuid "b17fd329-a087-4ec7-b591-65ba222c3ef1")
-		)
-		(instances
-			(project "FlightComputer"
-				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 283.21 29.21 0)
 		(unit 1)
@@ -21975,71 +20628,6 @@
 			(project ""
 				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 54.61 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c14f5ed4-f57d-4d2d-85c9-a5b6bf568577")
-		(property "Reference" "#PWR034"
-			(at 54.61 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.737 234.2642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13d9f0d5-03d8-4fc2-8f48-1f7626259957")
-		)
-		(instances
-			(project "FlightComputer"
-				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -22892,71 +21480,6 @@
 			(project "esp-rust-board"
 				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 41.91 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb6c8356-6634-44e9-aa42-ee2c0952e0c2")
-		(property "Reference" "#PWR031"
-			(at 41.91 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 42.037 226.6442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2540626-a91f-44e0-8d69-5560fd9a8fa2")
-		)
-		(instances
-			(project "FlightComputer"
-				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
