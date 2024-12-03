@@ -10358,7 +10358,7 @@
 				)
 			)
 		)
-		(property "Value" "Si2319CDS"
+		(property "Value" "Si2302CDS"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "3e60df98-7e8d-4895-a4f9-115e4acc1c76")
@@ -10408,7 +10408,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C146287"
+		(property "LCSC" "C10488"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16709,7 +16709,7 @@
 				)
 			)
 		)
-		(property "Value" "Si2319CDS"
+		(property "Value" "Si2302CDS"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "48307ae5-0e4c-4696-a398-1d7646a2c3f7")
@@ -16733,7 +16733,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/66709/si2319cd.pdf"
+		(property "Datasheet" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16746,7 +16746,7 @@
 				)
 			)
 		)
-		(property "Description" "-4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23"
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16759,7 +16759,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C146287"
+		(property "LCSC" "C10488"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16772,7 +16772,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOT?23*")
 		(path "/c1de309d-e921-4b46-905c-5a0f42813016")
 		(sheetname "Root")
 		(sheetfile "FlightComputer.kicad_sch")
