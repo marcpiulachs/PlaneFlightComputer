@@ -5901,10 +5901,6 @@
 		(uuid "fc4f0835-889b-4d2e-876e-ca524c79ae62")
 	)
 	(no_connect
-		(at 80.01 134.62)
-		(uuid "3212a28b-2af6-481c-b254-2fd80354d9eb")
-	)
-	(no_connect
 		(at 214.63 153.67)
 		(uuid "337e8520-cbd2-42c0-8d17-743bab17cbbd")
 	)
@@ -5913,7 +5909,7 @@
 		(uuid "47f1b4e7-8777-400a-9432-ce58e67d92b2")
 	)
 	(no_connect
-		(at 50.8 48.26)
+		(at 50.8 43.18)
 		(uuid "484fc73b-9e9b-4119-9f47-ae7ab8b46217")
 	)
 	(no_connect
@@ -5925,10 +5921,6 @@
 		(uuid "81da5e77-3fef-492b-a48c-d4fb4d24c527")
 	)
 	(no_connect
-		(at 50.8 43.18)
-		(uuid "9fd2066b-4729-4e2d-9ff3-7324ac2ea1d7")
-	)
-	(no_connect
 		(at 71.12 261.62)
 		(uuid "d20814ea-d0b1-4ae6-82ff-d9e7a8d11947")
 	)
@@ -5937,7 +5929,7 @@
 		(uuid "e0c7ddff-8c90-465f-be62-21fb49b059fa")
 	)
 	(no_connect
-		(at 80.01 132.08)
+		(at 80.01 134.62)
 		(uuid "ed953e91-9a60-4dae-b49b-63d249138507")
 	)
 	(wire
@@ -7229,6 +7221,16 @@
 			(type default)
 		)
 		(uuid "795c75f6-779f-4a69-8439-6d04b2dedefe")
+	)
+	(wire
+		(pts
+			(xy 80.01 132.08) (xy 83.82 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c8a48c-75c2-4ea7-adcb-60e3b4c6c0b7")
 	)
 	(wire
 		(pts
@@ -8842,6 +8844,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 132.08) (xy 83.82 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f685b0b9-29d3-4a00-b2fa-94d4974f96ba")
+	)
+	(wire
+		(pts
 			(xy 27.94 86.36) (xy 27.94 83.82)
 		)
 		(stroke
@@ -9792,6 +9804,28 @@
 			)
 		)
 	)
+	(global_label "IO1"
+		(shape bidirectional)
+		(at 50.8 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9203cbd3-78f6-4c87-ade1-4e0567c84d9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.3717 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D+"
 		(shape bidirectional)
 		(at 50.8 71.12 180)
@@ -9937,6 +9971,28 @@
 		(uuid "c15b2f75-2e10-4b71-bebb-e2b872171b92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 17.5656 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO1"
+		(shape bidirectional)
+		(at 83.82 137.16 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3b803c6-59e8-49ab-95ce-1d510c1ae529")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 143.5883 90)
 			(effects
 				(font
 					(size 1.27 1.27)
