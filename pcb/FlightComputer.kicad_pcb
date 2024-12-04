@@ -19501,7 +19501,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 155.75 118 90)
+		(at 163 118.6 90)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-000061bbc83b")
 		(effects
@@ -19512,7 +19512,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 155.75 121.25 90)
+		(at 162.4 121.5 90)
 		(layer "F.SilkS" knockout)
 		(uuid "0000bc94-e958-450c-8955-80b47fd865cc")
 		(effects
@@ -19522,8 +19522,8 @@
 			)
 		)
 	)
-	(gr_text "BATTERY"
-		(at 154.5 119.75 90)
+	(gr_text "-BATT+"
+		(at 155.6 119.6 90)
 		(layer "F.SilkS" knockout)
 		(uuid "11d4dfca-bb0d-4108-90ec-c42acd88a164")
 		(effects
@@ -21570,7 +21570,7 @@
 		(uuid "d0ae1e08-c6aa-4f57-97dc-bed63390e8e3")
 	)
 	(via
-		(at 156 120)
+		(at 153.454 121.3)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
